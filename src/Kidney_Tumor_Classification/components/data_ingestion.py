@@ -12,7 +12,7 @@ class DataIngestion:
     def __init__(self, config : DataIngestionConfig):
         self.config = config
 
-    def download_file(self) -> str:
+    def download_file(self):
         """
         Fetch data from the url and save it to the local file system.
         """
