@@ -50,7 +50,7 @@ stages:
       - BATCH_SIZE  
     metrics:
       - scores.json:
-          cache: False  
+          cache: false  
 
 
 
